@@ -210,3 +210,9 @@ docker compose up --build
 - Advanced filtering by date range
 - Admin role for user management
 - Unit tests for MVC controllers
+## Video Demonstration
+Full walkthrough: [YouTube — click here]()
+- Covers MVC structure & API integration
+- Azure Blob Storage flow
+- Docker build & run
+- Organiser & Participant demos
