@@ -216,3 +216,11 @@ Full walkthrough: [YouTube — click here]()
 - Azure Blob Storage flow
 - Docker build & run
 - Organiser & Participant demos
+## Submission Summary
+- ✅ MVC app consuming Part 2 API (no direct DB access)
+- ✅ Role-based auth & navigation
+- ✅ Azure Blob via API only
+- ✅ Dockerfile + docker-compose
+- ✅ CI/CD GitHub Actions workflow
+- ✅ 20 meaningful commits ✅
+- ✅ YouTube demo link included above
