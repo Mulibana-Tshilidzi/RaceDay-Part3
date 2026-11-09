@@ -224,3 +224,4 @@ Full walkthrough: [YouTube — click here]()
 - ✅ CI/CD GitHub Actions workflow
 - ✅ 20 meaningful commits ✅
 - ✅ YouTube demo link included above
+[YouTube — click here](https://youtu.be/L5GzqLULq64)
