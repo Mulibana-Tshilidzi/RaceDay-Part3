@@ -186,3 +186,8 @@ docker compose up --build
 - HTTPS ports may differ — check console output
 - Results entry restricted to organisers only
 - Profile pictures resizing handled by display — not server-side
+## Troubleshooting
+- **API connection fails** → ensure Part 2 API is running before MVC
+- **Docker permission errors** → ensure Docker Desktop is running
+- **Blob images not loading** → check Azurite container is healthy
+- **Login loops** → verify session cookie config in Program.cs
