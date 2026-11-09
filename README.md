@@ -203,3 +203,10 @@ docker compose up --build
 - `401 Unauthorized` — login required
 - `403 Forbidden` — wrong role
 - `404 Not Found` — record doesn't exist
+## Future Improvements
+- Server-side image resizing
+- Email notifications on enrolment
+- Pagination for event lists
+- Advanced filtering by date range
+- Admin role for user management
+- Unit tests for MVC controllers
