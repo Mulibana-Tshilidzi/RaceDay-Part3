@@ -112,3 +112,10 @@ If storage is not configured the rest of the app works; uploading a banner shows
 ### Run with Docker
 ```bash
 docker compose up --build
+## Authentication & Roles
+- **Register / Login** — all users authenticate via the API
+- **Organiser** — manages events, categories, enrolments, results, uploads banners
+- **Participant** — browses events, enrols, views results, manages profile
+- **Session** — stores user ID & role after login
+- **Logout** — clears session and redirects to login
+- **Unauthenticated users** — redirected away from protected pages
