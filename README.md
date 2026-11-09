@@ -152,3 +152,12 @@ docker compose up --build
 - **Status colours** — Green = Confirmed, Amber = Pending
 - **Error handling** — graceful messages, no raw stack traces
 - **Consistency** — matching fonts, colours, spacing across all pages
+## Docker Configuration
+- `Dockerfile` — ASP.NET Core MVC optimised image
+- `docker-compose.yml` — orchestrates full stack:
+  - SQL Server database
+  - Azurite (Azure Blob emulator)
+  - RaceDay API
+  - RaceDay MVC Web
+- Build command: `docker compose up --build`
+- Container behaves identically to local development
