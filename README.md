@@ -145,3 +145,10 @@ docker compose up --build
 - JSON payloads exchanged between MVC and API
 - Centralised error handling for API connection issues
 - No direct database access from MVC project
+## UI Design
+- **RaceDay branding** — sporting, energetic visual theme
+- **Bootstrap** — responsive layout across devices
+- **Role-based navigation** — different menus for Organiser vs Participant
+- **Status colours** — Green = Confirmed, Amber = Pending
+- **Error handling** — graceful messages, no raw stack traces
+- **Consistency** — matching fonts, colours, spacing across all pages
