@@ -167,3 +167,4 @@ docker compose up --build
 - Uses .NET SDK setup action
 - Restores dependencies → builds solution → reports status
 - Green build = all checks passed ✅
+## File Structure
