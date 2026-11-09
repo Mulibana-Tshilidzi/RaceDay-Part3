@@ -126,3 +126,10 @@ docker compose up --build
 - **Categories** — add age and distance categories per event
 - **Enrolments** — view participants per event, their category and status
 - **Results Entry** — capture finish times and positions after events conclude
+## Participant Interface
+- **Home Page** — upcoming events with filtering options
+- **Event Details** — full info and available categories
+- **Enrolment** — select event + category → saved immediately
+- **My Enrolments** — personal list with enrolment status
+- **My Results** — race history: event name, date, category, finish time, position (e.g. 47th of 312)
+- **Profile** — update personal info + upload profile picture
