@@ -181,3 +181,8 @@ docker compose up --build
   - Register as Organiser → create event → upload banner → verify display
   - Register as Participant → enrol → verify status → view results
 - Container tested against local: same behaviour confirmed
+## Notes & Limitations
+- Azure Blob Storage key is for development only — use secrets in production
+- HTTPS ports may differ — check console output
+- Results entry restricted to organisers only
+- Profile pictures resizing handled by display — not server-side
