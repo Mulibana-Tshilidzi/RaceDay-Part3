@@ -175,3 +175,9 @@ docker compose up --build
 - **Bootstrap 5** — responsive UI framework
 - **Docker** — containerisation
 - **Azure Blob Storage SDK** — used only in API project
+## Testing
+- API tested via Swagger UI
+- Manual end-to-end testing:
+  - Register as Organiser → create event → upload banner → verify display
+  - Register as Participant → enrol → verify status → view results
+- Container tested against local: same behaviour confirmed
