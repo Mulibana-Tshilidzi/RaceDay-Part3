@@ -168,3 +168,10 @@ docker compose up --build
 - Restores dependencies → builds solution → reports status
 - Green build = all checks passed ✅
 ## File Structure
+## Dependencies
+- **.NET 8 SDK** — runtime & framework
+- **ASP.NET Core MVC** — web frontend
+- **HttpClient** — API communication
+- **Bootstrap 5** — responsive UI framework
+- **Docker** — containerisation
+- **Azure Blob Storage SDK** — used only in API project
