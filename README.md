@@ -95,3 +95,20 @@ If storage is not configured the rest of the app works; uploading a banner shows
 - Participant: Event browsing, Enrolment, My Results, Profile
 - Azure Blob Storage integration via API only
 - Docker containerisation for full-stack deployment
+## Setup & Installation
+
+### Prerequisites
+- .NET 8 SDK
+- Docker Desktop
+- SQL Server (or use the Docker compose setup below)
+
+### Run Locally
+1. Clone the repository
+2. Update `appsettings.json` connection strings if needed
+3. Build and run the API first
+4. Build and run the MVC Web application
+5. Navigate to `https://localhost:72xx` in your browser
+
+### Run with Docker
+```bash
+docker compose up --build
