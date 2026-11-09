@@ -139,3 +139,9 @@ docker compose up --build
 - **Event banners** — uploaded by organisers → stored in Azure → displayed on event pages
 - **Profile pictures** — uploaded by participants → stored in Azure → displayed on profile
 - Local development uses **Azurite** (Azure Storage Emulator) via Docker
+## MVC → API Communication
+- All data operations go through the Part 2 REST API
+- HTTP client configured in `Program.cs`
+- JSON payloads exchanged between MVC and API
+- Centralised error handling for API connection issues
+- No direct database access from MVC project
