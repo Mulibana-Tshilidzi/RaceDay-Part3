@@ -133,3 +133,9 @@ docker compose up --build
 - **My Enrolments** — personal list with enrolment status
 - **My Results** — race history: event name, date, category, finish time, position (e.g. 47th of 312)
 - **Profile** — update personal info + upload profile picture
+## Azure Blob Storage Integration
+- MVC communicates **only** with the API — never directly with Azure
+- API handles blob storage operations and returns URLs to MVC
+- **Event banners** — uploaded by organisers → stored in Azure → displayed on event pages
+- **Profile pictures** — uploaded by participants → stored in Azure → displayed on profile
+- Local development uses **Azurite** (Azure Storage Emulator) via Docker
