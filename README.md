@@ -119,3 +119,10 @@ docker compose up --build
 - **Session** — stores user ID & role after login
 - **Logout** — clears session and redirects to login
 - **Unauthenticated users** — redirected away from protected pages
+## Organiser Interface
+- **Dashboard** — summary of events, total enrolments, upcoming dates
+- **Events Management** — create/edit/delete events (name, description, date, location, distance, type)
+- **Banner Upload** — upload event banner image stored in Azure Blob Storage
+- **Categories** — add age and distance categories per event
+- **Enrolments** — view participants per event, their category and status
+- **Results Entry** — capture finish times and positions after events conclude
