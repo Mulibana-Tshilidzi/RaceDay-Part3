@@ -161,3 +161,9 @@ docker compose up --build
   - RaceDay MVC Web
 - Build command: `docker compose up --build`
 - Container behaves identically to local development
+## CI/CD — GitHub Actions
+- Workflow automatically builds both API and MVC projects
+- Triggers on push to `main` branch
+- Uses .NET SDK setup action
+- Restores dependencies → builds solution → reports status
+- Green build = all checks passed ✅
