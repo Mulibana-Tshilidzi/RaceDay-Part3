@@ -191,3 +191,15 @@ docker compose up --build
 - **Docker permission errors** → ensure Docker Desktop is running
 - **Blob images not loading** → check Azurite container is healthy
 - **Login loops** → verify session cookie config in Program.cs
+## Enrolment Status Codes
+- ✅ **Confirmed** — green
+- ⏳ **Pending** — amber
+- ❌ **Cancelled** — red
+
+## HTTP Status Codes
+- `200 OK` — request successful
+- `201 Created` — new record added
+- `400 Bad Request` — invalid input
+- `401 Unauthorized` — login required
+- `403 Forbidden` — wrong role
+- `404 Not Found` — record doesn't exist
