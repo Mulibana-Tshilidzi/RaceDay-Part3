@@ -82,3 +82,16 @@ If storage is not configured the rest of the app works; uploading a banner shows
 2. In another browser/private window register a **Participant**, open the event and enrol -> status **Pending**.
 3. As the Organiser open *Enrolments* -> **Confirm**; after the event enter finish time (`hh:mm:ss`) and position under *Results* -> **Publish**.
 4. The Participant sees it under *My results*.
+## Project Structure
+- **Part2-API/RaceDay.Api** — ASP.NET Core Web API with EF Core, SQL Server, session cookie auth, Azure Blob Storage
+- **Part2-API/RaceDay.Tests** — xUnit integration tests for the API
+- **Part3-Web/RaceDay.Web** — ASP.NET Core MVC frontend — communicates ONLY with the API
+- **docker-compose.yml** — orchestrates API + Web + SQL Server + Azurite (Azure emulator)
+
+## Key Features
+- Role-based authentication (Organiser / Participant)
+- Session management across pages
+- Organiser: Dashboard, Events CRUD, Categories, Enrolments, Results Entry
+- Participant: Event browsing, Enrolment, My Results, Profile
+- Azure Blob Storage integration via API only
+- Docker containerisation for full-stack deployment
